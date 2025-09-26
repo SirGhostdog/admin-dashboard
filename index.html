@@ -26,11 +26,15 @@
 
     <div id="hero">
         <div id="banner">
-            <div id="topbanner"> 
-                <a id="bell">&#128269</a>
-                <input type="text" name="search">
-                <a>&#128276</a>
-                <div><img src="" alt="profilepic"> Alex Hallett</div>
+            <div id="topbanner">
+                <div id="searchbar">
+                    <a id="search">&#128269</a>
+                    <input type="text" name="search">
+                </div>
+                <div id="notif">
+                    <a id="bell">&#128276</a>
+                    <div><img src="" alt="profilepic"> Alex Hallett</div>
+                </div>
             </div>
             <div id="bottombanner">
                 <div id="greet">
@@ -45,19 +49,19 @@
             </div>
         </div>
         <div id="main">
-            <div id="cardscontainer">My Projects
-                <div class="cards">Card 1</div>
-                <div class="cards">Card 2</div>
-                <div class="cards">Card 3</div>
-                <div class="cards">Card 4</div>
-                <div class="cards">Card 5</div>
-                <div class="cards">Card 6</div>
+            <div id="cardscontainer">
+                <div class="cards" id="maincards">Card 1</div>
+                <div class="cards" id="maincards">Card 2</div>
+                <div class="cards" id="maincards">Card 3</div>
+                <div class="cards" id="maincards">Card 4</div>
+                <div class="cards" id="maincards">Card 5</div>
+                <div class="cards" id="maincards">Card 6</div>
             </div>
-            <div id="announce">Announcements
-                <div class="cards"></div>
-            </div>
-            <div id="trend">Trending
-                <div class="cards"></div>
+            <div id="sidecards">
+                <div class="cards" id="side">Announcements
+                </div>
+                <div class="cards" id="side">Trending
+                </div>
             </div>
         </div>
     </div>
