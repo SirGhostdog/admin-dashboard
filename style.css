@@ -32,8 +32,8 @@ li{
 }
 
 #banner{
-    box-shadow: 0px 1px 5px;
-    padding:36px;
+    box-shadow: 1px 1px 5px;
+    padding: 36px;
     z-index: 2;
 }
 
@@ -70,11 +70,33 @@ button{
     font-weight: 700;
 }
 
+#project,
+#announce,
+#trend{
+    position: absolute;
+}
+
+#project{
+    top: -3.5%;
+    left: 2%;
+}
+
+#announce{
+   top: -3%;
+   left: 3.5%;
+}
+
+#trend{
+   top: 47%;
+   left: 3.5%;
+}
+
 #main{
     background-color: rgb(231, 231, 231);
     min-height: 87dvh;
     display: flex;
     justify-content: space-around;
+    padding-top: 60px;
 }
 
 
@@ -83,6 +105,7 @@ button{
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     min-width: 100dvh;
+    position: relative;
     
 }
 .cards{
@@ -90,6 +113,13 @@ button{
     margin: 18px;
     min-height: 26dvh;
     border-radius: 8px;
+    padding-left: 20px;
+}
+
+#side{
+    padding-top: 16px;
+    min-height: 40dvh;
+    max-width: 38dvh;
 }
 
 #maincards{
@@ -99,8 +129,9 @@ button{
 #sidecards{
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: center;
     min-width: 50dvh;
+    position: relative;
 }
 
 input{
