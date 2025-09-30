@@ -9,19 +9,22 @@
 <body>
     <div id="dashboard">
         <h3>Dashboard</h3>
-        <ul>
-            <li>Home</li>
-            <li>Profile</li>
-            <li>Message</li>
-            <li>History</li>
-            <li>Tasks</li>
-            <li>Communities</li>
-        </ul>
-        <ul>
-            <li>Settings</li>
-            <li>Support</li>
-            <li>Privacy</li>
-        </ul>
+        <div id="list">
+            <ul>
+                <li><img id="dash-icons" src="images/home-outline.svg" alt="house">Home</li>
+                <li><img id="dash-icons" src="images/card-account-details-outline.svg" alt="profile">Profile</li>
+                <li><img id="dash-icons" src="images/message-outline.svg" alt="message">Message</li>
+                <li><img id="dash-icons" src="images/clock-time-four-outline.svg" alt="history">History</li>
+                <li><img id="dash-icons" src="images/note-multiple-outline.svg" alt="tasks">Tasks</li>
+                <li><img id="dash-icons" src="images/account-group-outline.svg" alt="community">Communities</li>
+            </ul>
+            <ul>
+                <li><img id="dash-icons" src="images/cog.svg" alt="cog">Settings</li>
+                <li><img id="dash-icons" src="images/help-box.svg" alt="help">Support</li>
+                <li><img id="dash-icons" src="images/shield-check.svg" alt="shield">Privacy</li>
+            </ul>
+        </div>
+        <div id="credit">Images by <a id="credit-link" href="https://unsplash.com/@deep_erudite">Deep</a> on <a id="credit-link" href="https://unsplash.com/">Unsplash.com</a></div>
     </div>
 
     <div id="hero">
@@ -33,13 +36,18 @@
                 </div>
                 <div id="notif">
                     <a id="bell">&#128276</a>
-                    <div id="corner-name"><img src="" alt="profilepic"> Alex Hallett</div>
+                    <img id="image-small" src="images/wolf.svg" alt="man">
+                    <div id="corner-name">Alex Hallett</div>
                 </div>
             </div>
             <div id="bottombanner">
+
                 <div id="greet">
-                    <div id="hi">Hi There,</div>
-                    <div id="name">Alex Hallett (@alex)</div>
+                    <img id="image-large" src="images/wolf.svg" alt="man">
+                    <div id="title">
+                        <div id="hi">Hi There,</div>
+                        <div id="name">Alex Hallett (@alex)</div>
+                    </div>
                 </div>
                 <div id="topbut">
                     <button class="topbutton">New</button>
@@ -104,21 +112,33 @@
                 <h2 id="announce">Announcements</h2>
                 
                 <div class="cards" id="side">
-                    <div id="trend-text">
-                        <div>@dunnce</div>
-                        <p>Maxwell Dunn</p>
+                    <div id="trend-name">
+                        <img id="image-large" src="images/chair.svg" alt="man">
+                        <div id="trend-text">
+                            <div >@dunnce</div>
+                            <p >Maxwell Dunn</p>
+                        </div>
                     </div>
-                    <div id="trend-text">
-                        <div>@aizza</div>
-                        <p>Aidan Lund</p>
+                    <div id="trend-name">
+                        <img id="image-large" src="images/dolphin.svg" alt="man">
+                        <div id="trend-text">
+                            <div>@Aizza</div>
+                            <p>Aidan Lund</p>
+                        </div>
                     </div>
-                    <div id="trend-text">
-                        <div>@Don Fonz</div>
-                        <p>Anthony Fonzi</p>
+                    <div id="trend-name">
+                        <img id="image-large" src="images/river.svg" alt="man">
+                        <div id="trend-text">
+                            <div>@Don Fonz</div>
+                            <p>Anthony Fonzi</p>
+                        </div>
                     </div>
-                    <div id="trend-text">
-                        <div>@mo</div>
-                        <p>Mo Bamba</p>
+                    <div id="trend-name">
+                        <img id="image-large" src="images/fox.svg" alt="man">
+                        <div id="trend-text">
+                            <div>@mo</div>
+                            <p>Mo Bamba</p>
+                        </div>
                     </div>
                 </div>
 
