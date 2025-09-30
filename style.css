@@ -1,3 +1,6 @@
+:root{
+    --text-color:rgb(90, 88, 88);
+}
 body{
     display: flex;
     padding: 0;
@@ -108,7 +111,7 @@ button{
 }
 
 #trend{
-   top: 47%;
+   top: 48.5%;
    left: 3.5%;
 }
 
@@ -120,15 +123,14 @@ button{
     padding-top: 60px;
 }
 
-
 #cardscontainer{
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     min-width: 100dvh;
-    position: relative;
-    
+    position: relative;  
 }
+
 .cards{
     background-color: white;
     margin: 18px;
@@ -136,12 +138,34 @@ button{
     border-radius: 8px;
     padding-left: 20px;
     font-size: 20px;
+    box-shadow: 0px 8px 5px -6px;
+}
+
+.card-images{
+    height: 180px;
+    padding-right: 26px;
+    display: flex;
+    justify-content: right;
+    align-items: end;
 }
 
 #side{
     padding-top: 16px;
-    min-height: 40dvh;
+    min-height: 38dvh;
     max-width: 38dvh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#announce-text,
+#announce-text-bottom{
+    margin: 20px;
+    margin-right: 32px;
+}
+
+#announce-text{
+    border-bottom: 2px solid rgb(194, 179, 179);
 }
 
 #maincards{
@@ -151,20 +175,25 @@ button{
 #sidecards{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-between;
     min-width: 50dvh;
     position: relative;
 }
 
 input{
-    width: 40dvh;
-    height: 24px;
+    width: 60dvh;
+    height: 28px;
     border-radius: 16px;
     border: none;
     background-color: rgb(231, 231, 231);
+    margin-left: 10px;
 }
 
 a{
     cursor:pointer;
     font-size: 24px;
+}
+
+p{
+    color: var(--text-color);
 }
